@@ -51,6 +51,34 @@ Adds **Export**, **Import**, and **Verify** buttons to the GIF picker tab bar.
 
 ---
 
+### 🏰 GuildCopier
+
+> Right-click any server to create an identical copy of it.
+
+Copies the entire structure of a Discord server into a new one. Originally made by [x2b](https://github.com/x2b1), with the bot list feature contributed by [Mixiruri](https://github.com/Mixiruri).
+
+**Features:**
+- Copies roles with colors, permissions, and position
+- Copies all channels and categories with their permission overwrites
+- Copies emojis (static and animated) and stickers
+- Creates a **#bots-list** channel with invite links for every bot in the original server
+- Automatic rate limit handling with retry logic for emojis
+
+**Settings:**
+| Setting | Description |
+|---|---|
+| Copy Roles | Copy roles from the original server |
+| Copy Channels | Copy channels and categories |
+| Copy Emojis | Copy emojis (up to the configured limit) |
+| Copy Stickers | Copy stickers |
+| Copy Bots | Create a #bots-list channel with invite links |
+| Emoji Count | Max emojis to copy per type (PNG and GIF) |
+| Sticker Count | Max stickers to copy |
+
+> ⚠️ Due to Discord rate limits, copying emojis can take a while. If a rate limit is hit, the plugin waits and retries automatically.
+
+---
+
 ## Installation
 
 These plugins are included in [TestCord](https://github.com/x2b1/TestCord). To install TestCord, follow the instructions in that repository.

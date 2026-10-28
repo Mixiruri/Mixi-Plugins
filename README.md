@@ -2,7 +2,6 @@
 
 ✦ˎˊ˗ a cozy collection of plugins for modified Discord clients ദ്ദി˶ᵔ ᵕ ᵔ˶)
 
-Made for [TestCord](https://github.com/x2b1/TestCord) (and other Vencord-based clients).
 
 ---
 
